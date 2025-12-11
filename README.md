@@ -54,6 +54,11 @@ Copy config.default.js to config.js and edit the default property to fit your lo
     OR
     pnpm run start-dev
 
+**Run the docker build using:**
+
+    yarn install --mode update-lockfile
+    docker build .
+
 ## Usage (npm / yarn / pnpm / CLI)
 
 _mongo-express_ requires Node.js v18.18 or higher.
